@@ -1,0 +1,68 @@
+
+adj1 = input("adjective: ")
+adj2 = input("adjective: ")
+adj3 = input("adjective: ")
+adj4 = input("adjective: ")
+adj5 = input("adjective: ")
+noun1 = input("noun: ")
+noun2 = input("noun: ")
+noun3 = input("noun: ")
+noun4 = input("noun: ")
+noun5 = input("noun: ")
+noun6 = input("noun: ")
+pl_noun1 = input("Plural Noun: ")
+pronoun1 = input("pronoun: ")
+verb1 = input("verb: ")
+verb2 = input("verb: ")
+verb3 = input("verb: ")
+verb4 = input("verb: ")
+pt_verb = input("past tense verb: ")
+adverb1 = input("adverb: ")
+adverb2 = input("adverb: ")
+preposition1 = input("preposition: ")
+
+
+verse1 = f'weve been {adj1} up until now \
+but the {noun1} that we {verb1} is about to run out \
+weve {verb2} our {pl_noun1} clear and loud \
+but the cue never came and the lights they never went down \
+so were passing the {noun2} while the time passes us \
+the {verb3} lanes a term never applied to us \
+without a dime to my name or a {noun3} in the world \
+i {verb4} out the door \
+destination anywhere but {adverb1}\
+{adverb2} from you'
+
+"""chorus=f'now im on my way to the {adj2} side \
+ill forget {pronoun1} i left behind \
+ these {adj3} rooms \
+still filled with you '
+
+verse2=f'so i dropped out of my own {noun4} \
+a {noun4} with no finish line \
+no first or last place \
+i watch these {pl_noun2} all run right past me \
+i turn and {verb4} away \
+cause we finally know {adverb3} what our \
+time heres about we were not meant to be \
+another {noun4} in the crowd \
+ were a {noun5} of lines \
+weve grown {adj4} and {adj5} \
+we wont ever be {verb} down '
+
+bridge=f'im so {adj6} and {adj7} around and {adj8}\
+im lying in empty beds again\
+ill wait for you to {verb5}\
+to your senses bared wire fences \
+wont keep me from breaking through \
+I swear I will for you'
+
+outtro=f'now im on my way to the {adj2} side \
+ill forget [pronoun1] i left behind \
+these {adj3)} rooms \
+are still filled with you \
+im so {adj6} and {adj7} around and {adj8} \
+im lying in empty beds again \
+away from you'"""
+
+print(verse1)
