@@ -1,0 +1,6 @@
+import random
+
+low=2
+high=10
+random=random.randint(low,high)
+print(random)
