@@ -1,0 +1,24 @@
+#voter eligibility
+#to be eligible to vote you have to be a citizen and over 18 years old
+
+
+def vote_stat():
+    name=input("what is your name: ")
+    age=input("How old are you: ")
+    age=int(age)
+    CitStat=input("Are you a citizen of the united states? ")
+    if age >=18 and CitStat == 'yes':
+        print(f'{name}, you are allowed to vote. ')
+    elif age >= 18 and CitStat == 'no':
+        print(f'{name} you are old enough to vote but you need to be a citizen of the united states')
+    elif age == 17 and CitStat=='yes':
+        print(f'{name} you are close but still too young to vote.  ')  
+    elif age == 17 and CitStat == 'no':
+        print(f'{name} you are too young and you need to be a citizen of the united states')
+    elif age <=17 and CitStat == 'yes':
+        print(f'{name} you are a citizen but you are still too young to vote')
+    elif age <= 17 and CitStat == 'no':
+        print(f'{name} you are too young to vote and you need to be a citizen. ')  
+
+
+vote_stat()
